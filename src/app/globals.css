@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+
+  --form-background: #7645d8;
+  --primary-background: #884dd3;
+
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #7645d8;
+
+  --white: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background: var(--primary-background);
+  font-family: Arial, Helvetica, sans-serif;
+}
